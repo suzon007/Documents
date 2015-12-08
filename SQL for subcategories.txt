@@ -1,0 +1,15 @@
+SELECT *
+FROM category
+INNER JOIN subcategory ON category.cat_id = subcategory.main_cat_id
+
+
+
+
+SELECT *
+FROM sub_cat_values
+INNER JOIN (
+
+SELECT *
+FROM category
+INNER JOIN subcategory ON category.cat_id = subcategory.main_cat_id
+) AS xyz ON xyz.sub_cat_id = sub_cat_values.sub_cat_id

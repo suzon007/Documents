@@ -1,0 +1,5 @@
+ar ekta rule of thumb jeta normally kora hoi:
+# tomar jotogula table thakbe database, proti tar jonno ekta kore model thakbe
+# jotogula modle thakbe, proti tar jonno ekta kore controller thakbe
+# proti ta controller er jonno views folder e ekta kore folder thakbe
+# proti ta controller function er jonno ekta kore view file takbe (jodi lage)
